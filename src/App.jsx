@@ -18,7 +18,7 @@ function App() {
       <button onClick={increaseCount}>Increase Count</button>
       <button onClick={() => setCount(0)}>Reset Count</button>
       <button onClick={decreaseCount}>Decrease Count</button>
-      <ProfileCards n={20} /> 
+      <ProfileCards n={count} /> 
     </>
   )
 }
